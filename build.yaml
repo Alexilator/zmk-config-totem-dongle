@@ -14,6 +14,6 @@ include:
   - board: xiao_ble//zmk
     shield: totem_dongle
     snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y  
+    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
   - board: xiao_ble//zmk
     shield: settings_reset
